@@ -1,0 +1,1 @@
+print("Projeto de IA iniciado com sucesso!")
