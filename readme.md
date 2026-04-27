@@ -26,7 +26,9 @@ Este projeto simula um assistente operacional capaz de analisar incidentes, prio
 ```bash
 python chat.py
 
-### 💬 Perguntas suportadas
+---
+
+## 💬 Perguntas suportadas
 
 -Como está o ambiente?
 -Tem algo crítico?
