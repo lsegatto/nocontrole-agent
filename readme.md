@@ -101,23 +101,23 @@ Arquivo gerado em /relatorios
 ## 🧪 Dados simulados:
 Este projeto utiliza dados fictícios para simular:
 
--Clientes e ambientes de rede
--Incidentes e degradações
--Chamados OTRS
--Alertas de monitoramento (Zabbix)
--SLA, impacto e priorização
+- Clientes e ambientes de rede
+- Incidentes e degradações
+- Chamados OTRS
+- Alertas de monitoramento (Zabbix)
+- SLA, impacto e priorização
 
 ---
 ## 🚧 Roadmap:
 Evoluções planejadas:
 
--Integração real com OTRS (API)
--Integração real com Zabbix
--Uso de IA (OpenAI ou modelo local)
--Implementação de MCP (Model Context Protocol)
--Histórico persistente de conversas
--Interface web
--Exportação de relatórios em PDF
+- Integração real com OTRS (API)
+- Integração real com Zabbix
+- Uso de IA (OpenAI ou modelo local)
+- Implementação de MCP (Model Context Protocol)
+- Histórico persistente de conversas
+- Interface web
+- Exportação de relatórios em PDF
 
 ---
 
