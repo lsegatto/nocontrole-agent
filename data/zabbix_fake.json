@@ -1,0 +1,37 @@
+{
+  "cliente 1": {
+    "host": "router-cliente-1",
+    "trigger": "Interface flapping",
+    "severity": "High",
+    "status_monitoramento": "PROBLEM",
+    "ultimo_evento": "Flap detectado na interface ge-0/0/1"
+  },
+  "cliente 4": {
+    "host": "edge-cliente-4",
+    "trigger": "Host unavailable",
+    "severity": "Disaster",
+    "status_monitoramento": "PROBLEM",
+    "ultimo_evento": "Equipamento sem resposta via ICMP"
+  },
+  "cliente 8": {
+    "host": "fw-cliente-8",
+    "trigger": "High packet loss",
+    "severity": "High",
+    "status_monitoramento": "PROBLEM",
+    "ultimo_evento": "Perda acima de 15% no link WAN"
+  },
+  "cliente 9": {
+    "host": "core-cliente-9",
+    "trigger": "Link down",
+    "severity": "Disaster",
+    "status_monitoramento": "PROBLEM",
+    "ultimo_evento": "Interface et-0/1/0 down"
+  },
+  "cliente 12": {
+    "host": "mpls-cliente-12",
+    "trigger": "BGP instability",
+    "severity": "High",
+    "status_monitoramento": "PROBLEM",
+    "ultimo_evento": "Sessão BGP oscilando"
+  }
+}

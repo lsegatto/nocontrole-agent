@@ -1,0 +1,42 @@
+{
+  "cliente 1": {
+    "ticket": "INC-2026-2001",
+    "fila": "NOC - Incidentes",
+    "status_ticket": "aberto",
+    "responsavel": "Analista N1",
+    "ultimo_artigo": "Cliente reporta intermitência no acesso. Evidências em coleta.",
+    "ultima_atualizacao": "Fornecedor será acionado após validação dos testes."
+  },
+  "cliente 4": {
+    "ticket": "INC-2026-2004",
+    "fila": "NOC - Crítico",
+    "status_ticket": "em tratamento",
+    "responsavel": "Analista N2",
+    "ultimo_artigo": "Circuito indisponível. Chamado escalonado para fornecedor.",
+    "ultima_atualizacao": "Aguardando retorno do fornecedor com previsão de normalização."
+  },
+  "cliente 8": {
+    "ticket": "INC-2026-2008",
+    "fila": "NOC - Incidentes",
+    "status_ticket": "aberto",
+    "responsavel": "Analista N2",
+    "ultimo_artigo": "Perda de pacote elevada detectada em testes.",
+    "ultima_atualizacao": "Evidências encaminhadas para análise."
+  },
+  "cliente 9": {
+    "ticket": "INC-2026-2009",
+    "fila": "NOC - Crítico",
+    "status_ticket": "em tratamento",
+    "responsavel": "Analista N3",
+    "ultimo_artigo": "Falha total detectada no circuito principal.",
+    "ultima_atualizacao": "Fornecedor acionado em regime emergencial."
+  },
+  "cliente 12": {
+    "ticket": "INC-2026-2012",
+    "fila": "NOC - Incidentes",
+    "status_ticket": "aberto",
+    "responsavel": "Analista N3",
+    "ultimo_artigo": "Oscilação de rota e perda em testes ICMP.",
+    "ultima_atualizacao": "Validação de BGP/MPLS em andamento."
+  }
+}
