@@ -44,6 +44,14 @@ Criar um copiloto operacional para NOC capaz de:
 
 ---
 
+## Análise do Ambiente
+
+Você: Como está o ambiente?
+
+NOControle:
+Resumo executivo do ambiente com status, riscos e prioridades.
+
+---
 ## 📁 Estrutura do projeto
 
 ```text
