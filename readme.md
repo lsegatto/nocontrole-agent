@@ -44,7 +44,11 @@ Criar um copiloto operacional para NOC capaz de:
 
 ---
 
-## Análise do Ambiente
+💬 Exemplos de uso:
+
+---
+
+## 📊 Análise do Ambiente:
 
 Você: Como está o ambiente?
 
@@ -52,6 +56,70 @@ NOControle:
 Resumo executivo do ambiente com status, riscos e prioridades.
 
 ---
+🚨 Verificação de críticos:
+
+Você: Tem algo crítico?
+
+NOControle:
+Lista de clientes com maior prioridade e risco.
+
+---
+
+🔍 Consulta de cliente:
+Você: Cliente 9
+
+NOControle:
+- Status
+- Severidade
+- Ticket
+- Impacto
+- Próximo passo
+- Monitoramento
+- OTRS
+
+---
+🧠 Memória de contexto:
+
+Você: Cliente 9
+Você: Qual o ticket?
+Você: Quem está cuidando?
+
+NOControle:
+Responde sem precisar repetir o cliente.
+
+---
+🧾 Geração de relatório:
+
+Você: Gera relatório do cliente 9
+
+NOControle:
+Arquivo gerado em /relatorios
+
+---
+
+🧪 Dados simulados:
+Este projeto utiliza dados fictícios para simular:
+
+-Clientes e ambientes de rede
+-Incidentes e degradações
+-Chamados OTRS
+-Alertas de monitoramento (Zabbix)
+-SLA, impacto e priorização
+
+---
+🚧 Roadmap:
+Evoluções planejadas:
+
+-Integração real com OTRS (API)
+-Integração real com Zabbix
+-Uso de IA (OpenAI ou modelo local)
+-Implementação de MCP (Model Context Protocol)
+-Histórico persistente de conversas
+-Interface web
+-Exportação de relatórios em PDF
+
+---
+
 ## 📁 Estrutura do projeto
 
 ```text
@@ -69,3 +137,7 @@ nocontrole-agent/
 ├── relatorios/
 ├── requirements.txt
 └── README.md
+```
+👨‍💻 Autor
+
+Lucas Antonucci Segatto Zampini
