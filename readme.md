@@ -1,4 +1,4 @@
-🛰️ NOControle Agent — AI Copilot for NOC Operations
+# 🛰️ NOControle Agent — AI Copilot for NOC Operations
 
 AI-powered copilot for Network Operations Centers (NOC), designed to assist analysts in incident analysis, prioritization, and operational decision-making.
 
@@ -25,42 +25,3 @@ Este projeto simula um assistente operacional capaz de analisar incidentes, prio
 
 ```bash
 python chat.py
-
----
-
-## 💬 Perguntas suportadas
-
--Como está o ambiente?
--Tem algo crítico?
--Qual cliente está pior?
--Quais chamados estão abertos?
--O que devo fazer agora?
--Cliente 9
--Gera relatório
-
-
-### 📁 Estrutura do projeto
-
-nocontrole-agent/
-│
-├── agent.py
-├── chat.py
-├── tools.py
-├── data.json
-│
-├── data/
-│   ├── otrs_fake.json
-│   └── zabbix_fake.json
-│
-├── relatorios/
-├── requirements.txt
-└── README.md
-
----
-
-## 📌 Disclaimer
-
-This project is a simulation and does not connect to real OTRS or Zabbix environments.  
-All data is mocked for study and demonstration purposes.
-
----
