@@ -56,7 +56,7 @@ NOControle:
 Resumo executivo do ambiente com status, riscos e prioridades.
 
 ---
-🚨 Verificação de críticos:
+## 🚨 Verificação de críticos:
 
 Você: Tem algo crítico?
 
@@ -65,7 +65,8 @@ Lista de clientes com maior prioridade e risco.
 
 ---
 
-🔍 Consulta de cliente:
+## 🔍 Consulta de cliente:
+
 Você: Cliente 9
 
 NOControle:
@@ -78,7 +79,7 @@ NOControle:
 - OTRS
 
 ---
-🧠 Memória de contexto:
+## 🧠 Memória de contexto:
 
 Você: Cliente 9
 Você: Qual o ticket?
@@ -88,7 +89,7 @@ NOControle:
 Responde sem precisar repetir o cliente.
 
 ---
-🧾 Geração de relatório:
+## 🧾 Geração de relatório:
 
 Você: Gera relatório do cliente 9
 
@@ -97,7 +98,7 @@ Arquivo gerado em /relatorios
 
 ---
 
-🧪 Dados simulados:
+## 🧪 Dados simulados:
 Este projeto utiliza dados fictícios para simular:
 
 -Clientes e ambientes de rede
@@ -107,7 +108,7 @@ Este projeto utiliza dados fictícios para simular:
 -SLA, impacto e priorização
 
 ---
-🚧 Roadmap:
+## 🚧 Roadmap:
 Evoluções planejadas:
 
 -Integração real com OTRS (API)
@@ -138,6 +139,6 @@ nocontrole-agent/
 ├── requirements.txt
 └── README.md
 ```
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Lucas Antonucci Segatto Zampini
